@@ -13,6 +13,6 @@
         console.log('dure gea mor')
     }
  }
- const askName=()=>{
+ const askname=()=>{
      prompt('what is ur name??')
  };
