@@ -15,4 +15,4 @@
  }
  const askName=()=>{
      prompt('what is ur name??')
- }
+ };
