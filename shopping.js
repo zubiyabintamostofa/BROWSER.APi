@@ -13,7 +13,7 @@ const addItem=()=>{
     if(!name){
     return;
     }
-    //display in the ui
+    //display in the ui 
      displayProduct(name)
 
 
@@ -33,13 +33,14 @@ const displayProduct=name=>{
 }
 const getCart=()=>{
     const cart=localStorage.getItem('card');
-    let cartObj;
+   let cartObj;
     if(cart){
         cartObj=JSON.parse(cart);
     }
     else{
         cartObj={}
-    }return cartObj;
+    }
+    return cartObj;
 }
 const addProductToCart=name=>{
     const cart=getCart();
